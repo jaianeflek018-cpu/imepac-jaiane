@@ -13,16 +13,16 @@ export default function Login(){
         <View style={style.container}>
             <View style={style.boxTop}>
                 <Image source={Logo}/>
-                <Text></Text>
+                <Text style={style.title}>login</Text>
             </View>
             <View style={style.boxMid}>
-                <Text>Endereço de E-mail:</Text>
+                <Text style={style.label}>Endereço de E-mail:</Text>
                 <TextInput style={style.boxInput}/>
-                <Text>Coloque sua senha:</Text>
+                <Text style={style.label}>Coloque sua senha:</Text>
                 <TextInput style={style.boxInput}/>
             </View>
             <View style={style.boxBottom}>
-                <Text>Bottom</Text>
+                <Text style={style.label}>Bottom</Text>
             </View>
         </View>        
 

@@ -5,7 +5,7 @@ import Login from './src/pages/login';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>"Elephant friend!</Text>
+      <Text>login</Text>
       <StatusBar style="auto" />
       <Login/>
     </View>
@@ -15,8 +15,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgb(153, 73, 144)',
+    backgroundColor: '#350061',
     alignItems: 'center',
     justifyContent: 'center',
+    padding:20,
   },
+  
 });

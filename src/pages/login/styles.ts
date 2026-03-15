@@ -38,7 +38,7 @@ export const style = StyleSheet.create({
     marginBottom: 6,
   },
     boxInput:{
-        backgroundColor:'#9f10fe',
+        backgroundColor:'#e6e3e9',
         marginRight: 40,
         borderRadius: 40,
         padding: 10,
